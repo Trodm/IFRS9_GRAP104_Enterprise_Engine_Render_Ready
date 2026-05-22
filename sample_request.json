@@ -1,0 +1,42 @@
+{
+  "portfolio": [
+    {
+      "account_id": "ACC001",
+      "days_past_due": 0,
+      "rating_at_origination": 2,
+      "current_rating": 2,
+      "EAD": 100000,
+      "PD_12m": 0.025,
+      "PD_lifetime": 0.09,
+      "LGD": 0.35,
+      "EIR": 0.11,
+      "remaining_years": 3
+    },
+    {
+      "account_id": "ACC002",
+      "days_past_due": 45,
+      "rating_at_origination": 3,
+      "current_rating": 5,
+      "EAD": 250000,
+      "PD_12m": 0.06,
+      "PD_lifetime": 0.28,
+      "LGD": 0.45,
+      "EIR": 0.12,
+      "remaining_years": 5
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "Base",
+      "weight": 0.60,
+      "pd_multiplier": 1.00,
+      "lgd_multiplier": 1.00
+    },
+    {
+      "scenario": "Downside",
+      "weight": 0.40,
+      "pd_multiplier": 1.50,
+      "lgd_multiplier": 1.20
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.git
+.Rhistory
+.RData
+.Rproj.user
+outputs/*
+logs/*
+data/*.csv
+data/*.parquet

@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ifrs9-grap104-enterprise-engine
+    env: docker
+    plan: free
+    healthCheckPath: /health
